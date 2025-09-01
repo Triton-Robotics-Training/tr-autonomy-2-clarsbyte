@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/clarissa/TR-Autonomy-2/src/control/build/control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clarissa/TR-Autonomy-2/src/control/build/control -- -j20 -l20
+[0.054s] Consolidate compiler generated dependencies of target control
+[0.069s] [ 50%] Building CXX object CMakeFiles/control.dir/src/control.cpp.o
+[2.503s] /home/clarissa/TR-Autonomy-2/src/control/src/control.cpp: In constructor ‘Control::Control()’:
+[2.504s] /home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:198:12: warning: ‘Control::count_’ will be initialized after [-Wreorder]
+[2.504s]   198 |     size_t count_;
+[2.504s]       |            ^~~~~~
+[2.504s] /home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:57:9: warning:   ‘int Control::x’ [-Wreorder]
+[2.504s]    57 |     int x, y;
+[2.504s]       |         ^
+[2.504s] /home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:21:5: warning:   when initialized here [-Wreorder]
+[2.504s]    21 |     Control() : Node("control"), count_(0), x(0), y(0), current_angle_(0.0), last_good_angle_(0.0),
+[2.504s]       |     ^~~~~~~
+[10.507s] [100%] Linking CXX executable control
+[11.383s] [100%] Built target control
+[11.395s] Invoked command in '/home/clarissa/TR-Autonomy-2/src/control/build/control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clarissa/TR-Autonomy-2/src/control/build/control -- -j20 -l20
+[11.404s] Invoking command in '/home/clarissa/TR-Autonomy-2/src/control/build/control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clarissa/TR-Autonomy-2/src/control/build/control
+[11.410s] -- Install configuration: ""
+[11.410s] -- Installing: /home/clarissa/TR-Autonomy-2/src/control/install/control/lib/control/control
+[11.414s] -- Set runtime path of "/home/clarissa/TR-Autonomy-2/src/control/install/control/lib/control/control" to ""
+[11.414s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[11.414s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[11.414s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/ament_prefix_path.sh
+[11.414s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/ament_prefix_path.dsv
+[11.414s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/path.sh
+[11.414s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/path.dsv
+[11.414s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.bash
+[11.415s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.sh
+[11.416s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.zsh
+[11.416s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.dsv
+[11.416s] -- Installing: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/package.dsv
+[11.416s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/packages/control
+[11.416s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/cmake/controlConfig.cmake
+[11.416s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/cmake/controlConfig-version.cmake
+[11.417s] -- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/package.xml
+[11.417s] Invoked command in '/home/clarissa/TR-Autonomy-2/src/control/build/control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clarissa/TR-Autonomy-2/src/control/build/control

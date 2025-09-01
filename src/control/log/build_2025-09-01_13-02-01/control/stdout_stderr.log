@@ -1,0 +1,32 @@
+Consolidate compiler generated dependencies of target control
+[ 50%] Building CXX object CMakeFiles/control.dir/src/control.cpp.o
+/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp: In constructor ‘Control::Control()’:
+/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:231:12: warning: ‘Control::count_’ will be initialized after [-Wreorder]
+  231 |     size_t count_;
+      |            ^~~~~~
+/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:53:9: warning:   ‘int Control::x’ [-Wreorder]
+   53 |     int x, y;
+      |         ^
+/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:21:5: warning:   when initialized here [-Wreorder]
+   21 |     Control() : Node("control"), count_(0), x(0), y(0), current_angle_(0.0), last_good_angle_(0.0),
+      |     ^~~~~~~
+[100%] Linking CXX executable control
+[100%] Built target control
+-- Install configuration: ""
+-- Installing: /home/clarissa/TR-Autonomy-2/src/control/install/control/lib/control/control
+-- Set runtime path of "/home/clarissa/TR-Autonomy-2/src/control/install/control/lib/control/control" to ""
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/path.sh
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/path.dsv
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.bash
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.sh
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.zsh
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.dsv
+-- Installing: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/package.dsv
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/packages/control
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/cmake/controlConfig.cmake
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/cmake/controlConfig-version.cmake
+-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/package.xml

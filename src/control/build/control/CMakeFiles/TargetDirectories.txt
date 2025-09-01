@@ -1,0 +1,10 @@
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/uninstall.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/control_uninstall.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/control.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/test.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/edit_cache.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/rebuild_cache.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/list_install_components.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/install.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/install/local.dir
+/home/clarissa/TR-Autonomy-2/src/control/build/control/CMakeFiles/install/strip.dir

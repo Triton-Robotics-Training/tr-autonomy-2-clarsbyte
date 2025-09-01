@@ -1,0 +1,16 @@
+/home/clarissa/TR-Autonomy-2/src/control/install/control/lib/control/control
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/package_run_dependencies/control
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/parent_prefix_path/control
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/ament_prefix_path.sh
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/ament_prefix_path.dsv
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/path.sh
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/path.dsv
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.bash
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.sh
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.zsh
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.dsv
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/package.dsv
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/packages/control
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/cmake/controlConfig.cmake
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/cmake/controlConfig-version.cmake
+/home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/package.xml

@@ -1,0 +1,10 @@
+/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp: In constructor ‘Control::Control()’:
+/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:198:12: warning: ‘Control::count_’ will be initialized after [-Wreorder]
+  198 |     size_t count_;
+      |            ^~~~~~
+/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:57:9: warning:   ‘int Control::x’ [-Wreorder]
+   57 |     int x, y;
+      |         ^
+/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:21:5: warning:   when initialized here [-Wreorder]
+   21 |     Control() : Node("control"), count_(0), x(0), y(0), current_angle_(0.0), last_good_angle_(0.0),
+      |     ^~~~~~~

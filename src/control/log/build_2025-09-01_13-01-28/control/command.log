@@ -1,0 +1,6 @@
+Invoking command in '/home/clarissa/TR-Autonomy-2/src/control/build/control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clarissa/TR-Autonomy-2/src/control -DCMAKE_INSTALL_PREFIX=/home/clarissa/TR-Autonomy-2/src/control/install/control
+Invoked command in '/home/clarissa/TR-Autonomy-2/src/control/build/control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clarissa/TR-Autonomy-2/src/control -DCMAKE_INSTALL_PREFIX=/home/clarissa/TR-Autonomy-2/src/control/install/control
+Invoking command in '/home/clarissa/TR-Autonomy-2/src/control/build/control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clarissa/TR-Autonomy-2/src/control/build/control -- -j20 -l20
+Invoked command in '/home/clarissa/TR-Autonomy-2/src/control/build/control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clarissa/TR-Autonomy-2/src/control/build/control -- -j20 -l20
+Invoking command in '/home/clarissa/TR-Autonomy-2/src/control/build/control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clarissa/TR-Autonomy-2/src/control/build/control
+Invoked command in '/home/clarissa/TR-Autonomy-2/src/control/build/control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clarissa/TR-Autonomy-2/src/control/build/control

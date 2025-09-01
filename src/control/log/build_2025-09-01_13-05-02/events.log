@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.001120] (control) JobStarted: {'identifier': 'control'}
+[0.010410] (control) JobProgress: {'identifier': 'control', 'progress': 'cmake'}
+[0.011119] (control) JobProgress: {'identifier': 'control', 'progress': 'build'}
+[0.013093] (control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/clarissa/TR-Autonomy-2/src/control/build/control', '--', '-j20', '-l20'], 'cwd': '/home/clarissa/TR-Autonomy-2/src/control/build/control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'clarissa'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'id_ID.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/clarissa'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/clarissa/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/clarissa/.nvm/versions/node/v22.19.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1209'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1612'), ('BUNDLED_DEBUGPY_PATH', '/home/clarissa/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3932'), ('NVM_DIR', '/home/clarissa/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'clarissa'), ('JOURNAL_STREAM', '8:13480'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'clarissa'), ('TERM', 'xterm-256color'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/clarissa/.nvm/versions/node/v22.19.0/bin:/home/clarissa/.local/bin:/opt/ros/humble/bin:/home/clarissa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/clarissa/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/clarissa/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/clarissa-ubuntu:@/tmp/.ICE-unix/1585,unix/clarissa-ubuntu:/tmp/.ICE-unix/1585'), ('INVOCATION_ID', 'e7520084d0c94bd8a46053c5364b4ed2'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/clarissa/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-74a988f04a7bbcb7.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b511941491.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/clarissa/TR-Autonomy-2/src/control/build/control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.075895] (control) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target control\n'}
+[0.097565] (control) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/control.dir/src/control.cpp.o\n'}
+[0.099519] (-) TimerEvent: {}
+[0.199706] (-) TimerEvent: {}
+[0.299921] (-) TimerEvent: {}
+[0.400254] (-) TimerEvent: {}
+[0.500667] (-) TimerEvent: {}
+[0.600968] (-) TimerEvent: {}
+[0.701289] (-) TimerEvent: {}
+[0.801702] (-) TimerEvent: {}
+[0.902061] (-) TimerEvent: {}
+[1.002443] (-) TimerEvent: {}
+[1.102779] (-) TimerEvent: {}
+[1.203122] (-) TimerEvent: {}
+[1.303432] (-) TimerEvent: {}
+[1.403833] (-) TimerEvent: {}
+[1.504252] (-) TimerEvent: {}
+[1.604538] (-) TimerEvent: {}
+[1.705062] (-) TimerEvent: {}
+[1.805692] (-) TimerEvent: {}
+[1.905907] (-) TimerEvent: {}
+[2.006210] (-) TimerEvent: {}
+[2.106742] (-) TimerEvent: {}
+[2.207392] (-) TimerEvent: {}
+[2.307933] (-) TimerEvent: {}
+[2.408635] (-) TimerEvent: {}
+[2.509177] (-) TimerEvent: {}
+[2.609651] (-) TimerEvent: {}
+[2.710256] (-) TimerEvent: {}
+[2.810679] (-) TimerEvent: {}
+[2.910959] (-) TimerEvent: {}
+[3.011201] (-) TimerEvent: {}
+[3.111609] (-) TimerEvent: {}
+[3.212168] (-) TimerEvent: {}
+[3.287434] (control) StderrLine: {'line': b'/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp: In constructor \xe2\x80\x98Control::Control()\xe2\x80\x99:\n'}
+[3.287738] (control) StderrLine: {'line': b'/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:231:12: warning: \xe2\x80\x98Control::count_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[3.287831] (control) StderrLine: {'line': b'  231 |     size_t count_;\n'}
+[3.287911] (control) StderrLine: {'line': b'      |            ^~~~~~\n'}
+[3.287998] (control) StderrLine: {'line': b'/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:53:9: warning:   \xe2\x80\x98int Control::x\xe2\x80\x99 [-Wreorder]\n'}
+[3.288213] (control) StderrLine: {'line': b'   53 |     int x, y;\n'}
+[3.288278] (control) StderrLine: {'line': b'      |         ^\n'}
+[3.288317] (control) StderrLine: {'line': b'/home/clarissa/TR-Autonomy-2/src/control/src/control.cpp:21:5: warning:   when initialized here [-Wreorder]\n'}
+[3.288354] (control) StderrLine: {'line': b'   21 |     Control() : Node("control"), count_(0), x(0), y(0), current_angle_(0.0), last_good_angle_(0.0),\n'}
+[3.288390] (control) StderrLine: {'line': b'      |     ^~~~~~~\n'}
+[3.312250] (-) TimerEvent: {}
+[3.412617] (-) TimerEvent: {}
+[3.512906] (-) TimerEvent: {}
+[3.613339] (-) TimerEvent: {}
+[3.714004] (-) TimerEvent: {}
+[3.814471] (-) TimerEvent: {}
+[3.915110] (-) TimerEvent: {}
+[4.015431] (-) TimerEvent: {}
+[4.115855] (-) TimerEvent: {}
+[4.216205] (-) TimerEvent: {}
+[4.316650] (-) TimerEvent: {}
+[4.416999] (-) TimerEvent: {}
+[4.517361] (-) TimerEvent: {}
+[4.617735] (-) TimerEvent: {}
+[4.718178] (-) TimerEvent: {}
+[4.818490] (-) TimerEvent: {}
+[4.918941] (-) TimerEvent: {}
+[5.019482] (-) TimerEvent: {}
+[5.119928] (-) TimerEvent: {}
+[5.220291] (-) TimerEvent: {}
+[5.320649] (-) TimerEvent: {}
+[5.420860] (-) TimerEvent: {}
+[5.521126] (-) TimerEvent: {}
+[5.621349] (-) TimerEvent: {}
+[5.721622] (-) TimerEvent: {}
+[5.822067] (-) TimerEvent: {}
+[5.922601] (-) TimerEvent: {}
+[6.023132] (-) TimerEvent: {}
+[6.123540] (-) TimerEvent: {}
+[6.223744] (-) TimerEvent: {}
+[6.324132] (-) TimerEvent: {}
+[6.424535] (-) TimerEvent: {}
+[6.524927] (-) TimerEvent: {}
+[6.625545] (-) TimerEvent: {}
+[6.725882] (-) TimerEvent: {}
+[6.826362] (-) TimerEvent: {}
+[6.926690] (-) TimerEvent: {}
+[7.027096] (-) TimerEvent: {}
+[7.127398] (-) TimerEvent: {}
+[7.227712] (-) TimerEvent: {}
+[7.328001] (-) TimerEvent: {}
+[7.428303] (-) TimerEvent: {}
+[7.528693] (-) TimerEvent: {}
+[7.628990] (-) TimerEvent: {}
+[7.729465] (-) TimerEvent: {}
+[7.829692] (-) TimerEvent: {}
+[7.930101] (-) TimerEvent: {}
+[8.030576] (-) TimerEvent: {}
+[8.131039] (-) TimerEvent: {}
+[8.231396] (-) TimerEvent: {}
+[8.331874] (-) TimerEvent: {}
+[8.432265] (-) TimerEvent: {}
+[8.532571] (-) TimerEvent: {}
+[8.632999] (-) TimerEvent: {}
+[8.733438] (-) TimerEvent: {}
+[8.833784] (-) TimerEvent: {}
+[8.934409] (-) TimerEvent: {}
+[9.035044] (-) TimerEvent: {}
+[9.135454] (-) TimerEvent: {}
+[9.235811] (-) TimerEvent: {}
+[9.336057] (-) TimerEvent: {}
+[9.436497] (-) TimerEvent: {}
+[9.537170] (-) TimerEvent: {}
+[9.637831] (-) TimerEvent: {}
+[9.738335] (-) TimerEvent: {}
+[9.838684] (-) TimerEvent: {}
+[9.938906] (-) TimerEvent: {}
+[10.039177] (-) TimerEvent: {}
+[10.139471] (-) TimerEvent: {}
+[10.239922] (-) TimerEvent: {}
+[10.340471] (-) TimerEvent: {}
+[10.441027] (-) TimerEvent: {}
+[10.541475] (-) TimerEvent: {}
+[10.641809] (-) TimerEvent: {}
+[10.742215] (-) TimerEvent: {}
+[10.842629] (-) TimerEvent: {}
+[10.943099] (-) TimerEvent: {}
+[11.043634] (-) TimerEvent: {}
+[11.144021] (-) TimerEvent: {}
+[11.244263] (-) TimerEvent: {}
+[11.344598] (-) TimerEvent: {}
+[11.445111] (-) TimerEvent: {}
+[11.545477] (-) TimerEvent: {}
+[11.646168] (-) TimerEvent: {}
+[11.746702] (-) TimerEvent: {}
+[11.847005] (-) TimerEvent: {}
+[11.947372] (-) TimerEvent: {}
+[12.047741] (-) TimerEvent: {}
+[12.148066] (-) TimerEvent: {}
+[12.248372] (-) TimerEvent: {}
+[12.348595] (-) TimerEvent: {}
+[12.448876] (-) TimerEvent: {}
+[12.549234] (-) TimerEvent: {}
+[12.649495] (-) TimerEvent: {}
+[12.749846] (-) TimerEvent: {}
+[12.850274] (-) TimerEvent: {}
+[12.950568] (-) TimerEvent: {}
+[13.050883] (-) TimerEvent: {}
+[13.151221] (-) TimerEvent: {}
+[13.251785] (-) TimerEvent: {}
+[13.352081] (-) TimerEvent: {}
+[13.452403] (-) TimerEvent: {}
+[13.552837] (-) TimerEvent: {}
+[13.653108] (-) TimerEvent: {}
+[13.753303] (-) TimerEvent: {}
+[13.853555] (-) TimerEvent: {}
+[13.953871] (-) TimerEvent: {}
+[13.994486] (control) StdoutLine: {'line': b'[100%] Linking CXX executable control\n'}
+[14.054080] (-) TimerEvent: {}
+[14.154457] (-) TimerEvent: {}
+[14.255063] (-) TimerEvent: {}
+[14.355452] (-) TimerEvent: {}
+[14.455783] (-) TimerEvent: {}
+[14.556110] (-) TimerEvent: {}
+[14.656569] (-) TimerEvent: {}
+[14.757186] (-) TimerEvent: {}
+[14.857631] (-) TimerEvent: {}
+[14.957979] (-) TimerEvent: {}
+[15.058510] (-) TimerEvent: {}
+[15.159123] (-) TimerEvent: {}
+[15.201743] (control) StdoutLine: {'line': b'[100%] Built target control\n'}
+[15.218995] (control) CommandEnded: {'returncode': 0}
+[15.220229] (control) JobProgress: {'identifier': 'control', 'progress': 'install'}
+[15.235885] (control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/clarissa/TR-Autonomy-2/src/control/build/control'], 'cwd': '/home/clarissa/TR-Autonomy-2/src/control/build/control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'clarissa'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'id_ID.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/clarissa'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/clarissa/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/clarissa/.nvm/versions/node/v22.19.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1209'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1612'), ('BUNDLED_DEBUGPY_PATH', '/home/clarissa/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3932'), ('NVM_DIR', '/home/clarissa/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'clarissa'), ('JOURNAL_STREAM', '8:13480'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'clarissa'), ('TERM', 'xterm-256color'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/clarissa/.nvm/versions/node/v22.19.0/bin:/home/clarissa/.local/bin:/opt/ros/humble/bin:/home/clarissa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/clarissa/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/clarissa/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/clarissa-ubuntu:@/tmp/.ICE-unix/1585,unix/clarissa-ubuntu:/tmp/.ICE-unix/1585'), ('INVOCATION_ID', 'e7520084d0c94bd8a46053c5364b4ed2'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/clarissa/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-74a988f04a7bbcb7.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b511941491.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/clarissa/TR-Autonomy-2/src/control/build/control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.244602] (control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.244812] (control) StdoutLine: {'line': b'-- Installing: /home/clarissa/TR-Autonomy-2/src/control/install/control/lib/control/control\n'}
+[15.250467] (control) StdoutLine: {'line': b'-- Set runtime path of "/home/clarissa/TR-Autonomy-2/src/control/install/control/lib/control/control" to ""\n'}
+[15.250641] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/package_run_dependencies/control\n'}
+[15.250687] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/parent_prefix_path/control\n'}
+[15.250721] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/ament_prefix_path.sh\n'}
+[15.250757] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/ament_prefix_path.dsv\n'}
+[15.251061] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/path.sh\n'}
+[15.251162] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/environment/path.dsv\n'}
+[15.251236] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.bash\n'}
+[15.251305] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.sh\n'}
+[15.251373] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.zsh\n'}
+[15.251441] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/local_setup.dsv\n'}
+[15.251524] (control) StdoutLine: {'line': b'-- Installing: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/package.dsv\n'}
+[15.251592] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/ament_index/resource_index/packages/control\n'}
+[15.251659] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/cmake/controlConfig.cmake\n'}
+[15.251725] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/cmake/controlConfig-version.cmake\n'}
+[15.251792] (control) StdoutLine: {'line': b'-- Up-to-date: /home/clarissa/TR-Autonomy-2/src/control/install/control/share/control/package.xml\n'}
+[15.254571] (control) CommandEnded: {'returncode': 0}
+[15.259432] (-) TimerEvent: {}
+[15.269276] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[15.270007] (-) EventReactorShutdown: {}
